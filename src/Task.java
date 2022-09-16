@@ -5,7 +5,7 @@ public class Task {
 3. Checkout to origin develop branch, it will create your local develop one;
 4. Create your branch from local develop, name of the branch should be your name. Ex: my branch will be "alena";
 5. Create the package, name it name_goes_camping (use your name);
-6. Create the class Tourist. Commit. All the other commits and pushes can be done whenever you feel it's time to "save".
+6. Create the class Tourist. Commit and PUSH. All the other commits and pushes can be done whenever you feel it's time to "save".
 7. Create variables: String name and String [] belongings. Initialize variables: create Constructor with 1 argument(name), encapsulate belongings. Requirement: 1 tourist must take exactly 3 items.
 8. Create toString method. Method should return "name goes camping and has [item, item, item]".
 9. Create methods:
