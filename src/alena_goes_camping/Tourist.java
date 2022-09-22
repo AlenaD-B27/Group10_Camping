@@ -55,6 +55,23 @@ public class Tourist {
     }
 
 
+    public void playMusic(){
+        int countMusic = 0;
+        for (int i = 0; i < belongings.length; i++ ){
+            if(belongings[i].equals("guitar") || belongings[i].equals("speaker") || belongings[i].equals("radio")){
+                countMusic++;
+                break;
+            }
+        }
+
+        if (countMusic == 0){
+            System.out.println(name + " has no music so " + name + " is singing, the wolves think it's their brother");
+        } else {
+            System.out.println("The music is fun.");
+        }
+    }
+
+
     public String toString(){
         return name + " goes camping and has " + Arrays.toString(belongings) + " .";
     }

@@ -18,6 +18,8 @@ public class Camping {
 
         tourist1.makeFire();
 
+        tourist1.playMusic();
+
 
 
 
