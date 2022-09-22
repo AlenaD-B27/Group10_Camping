@@ -4,12 +4,18 @@ import java.util.Arrays;
 
 public class Tourist {
 
+    // variables:
+
     String name;
     private String [] belongings = new String [3];
+
+    // constructor:
 
     public Tourist(String name) {
         this.name = name;
     }
+
+    // encapsulating belongings. We really do not use this encapsulation but for practice I just wanted to remind the rules of encapsulation: PRIVATE variable has PUBLIC getter and setter.
 
     public String[] getBelongings() {
         return belongings;
@@ -18,6 +24,8 @@ public class Tourist {
     public void setBelongings(String[] belongings) {
         this.belongings = belongings;
     }
+
+    // methods: setUpTent, makeFire, playMusic. Here I wanted us to practice iteration through Array.
 
 
 
@@ -71,6 +79,8 @@ public class Tourist {
         }
     }
 
+
+    // toString method
 
     public String toString(){
         return name + " goes camping and has " + Arrays.toString(belongings) + " .";
