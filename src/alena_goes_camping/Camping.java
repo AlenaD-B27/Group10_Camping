@@ -16,6 +16,8 @@ public class Camping {
 
         tourist1.setUpTent();
 
+        tourist1.makeFire();
+
 
 
 

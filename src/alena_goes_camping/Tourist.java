@@ -38,6 +38,23 @@ public class Tourist {
     }
 
 
+    public void makeFire(){
+        int countFire = 0;
+        for (int i = 0; i < belongings.length; i++ ){
+            if(belongings[i].equals("matches") || belongings[i].equals("lighter") || belongings[i].equals("flint")){
+                countFire++;
+                break;
+            }
+        }
+
+        if (countFire == 0){
+            System.out.println(name + " has no items to make the fire.");
+        } else {
+            System.out.println("The fire is ready.");
+        }
+    }
+
+
     public String toString(){
         return name + " goes camping and has " + Arrays.toString(belongings) + " .";
     }
