@@ -14,6 +14,8 @@ public class Camping {
 
         System.out.println(tourist1);
 
+        tourist1.setUpTent();
+
 
 
 
